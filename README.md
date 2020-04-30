@@ -18,4 +18,7 @@ Python3 covid.py
 You need to have ```Flask``` , ```Tenforflow 1.14 ``` and ```Keras``` Installed. 
 
 ## Flutter application:
-The flutter application accesses the API provided by the **web application** . 
+The flutter application accesses the API provided by the **web application**.
+
+via ``` static String api = "http://localhost:5008/predictCovid";   ``` 
+
