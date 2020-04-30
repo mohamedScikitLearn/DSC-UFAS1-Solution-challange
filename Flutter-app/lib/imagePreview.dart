@@ -17,9 +17,8 @@ class ImagePreviewState extends State<ImagePreview>
     bool showActivityIncdicator = false;
     static BaseOptions options = new BaseOptions(connectTimeout: 30000,receiveTimeout: 30000,sendTimeout: 30000);
     static Dio dio = new Dio(options);
-    static String api = "https://1.1.1.1/predictCovid";  
+    static String api = "http://localhost:5008/predictCovid";  
     
-    # The webservice need to be hosted, replace the ip adrress and paste it here. (replace it with "https://1.1.1.1" )
 
 
     void initState()
