@@ -142,12 +142,12 @@ class ImagePreviewState extends State<ImagePreview>
             setState(() {
               showActivityIncdicator = false;
             });
-            if(response.data == "This might be a Pneumonia case")
+            if(response.data == " This scan show Pneumonia infection  ")
             {
               text = "PNEUMONIA";
               color = Color(0xFFF5365C);
             }else{
-              if(response.data =="POSITIVE COVID-19 Test")
+              if(response.data ==" This scan shows Covid-19 infection  ")
               {
                 text = "COVID POSITIVE";
                 color = Color(0xFFF5365C);
